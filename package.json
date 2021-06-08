@@ -1,0 +1,35 @@
+{
+  "name": "school-programming",
+  "version": "1.0.0",
+  "description": "A simple bot for discord.js",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahosall/School-Programming.git"
+  },
+  "keywords": [
+    "Handler"
+  ],
+  "author": "Ahosall (Feh's)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ahosall/School-Programming/issues"
+  },
+  "homepage": "https://github.com/Ahosall/School-Programming#readme",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "chalk": "^4.1.1",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "enmap": "^5.8.5",
+    "mongoose": "^5.12.13",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
